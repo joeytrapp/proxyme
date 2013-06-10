@@ -1,0 +1,30 @@
+{
+  "name": "proxyme",
+  "version": "0.1.0",
+  "description": "Command line wrapper for node-http-proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter dot"
+  },
+  "repository": "git@github.com:joeytrapp/proxyme.git",
+  "keywords": [
+    "proxy",
+    "cli",
+    "http"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "proxyme": "bin/proxyme.js"
+  },
+  "author": "Joey Trapp <jtrapp07@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "http-proxy": "~0.10.2"
+  },
+  "devDependencies": {
+    "chai": "~1.6.1",
+    "mocha": "~1.10.0"
+  }
+}
